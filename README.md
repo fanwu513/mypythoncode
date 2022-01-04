@@ -2,6 +2,8 @@
 
 learning python
 
+learn how to version control projects with git.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine
