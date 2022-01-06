@@ -11,7 +11,7 @@ with open("/home/student/mypythoncode/attemptlogin/keystone.common.wsgi") as kfi
         # if this 'fail pattern' appears in the line...
         if "- - - - -] Authorization failed" in line:
             loginfail += 1 # this is the same as loginfail = loginfail + 1
-        if "- - - - -] Authorization successful" in line:
+        if "- - - - -] Loaded" in line:
             loginsuccess += 1 
 print("The number of failed log in attempts is", loginfail)
 print("The number of successful log in attempts is", loginsuccess)
