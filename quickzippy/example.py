@@ -1,0 +1,9 @@
+import zipfile
+
+
+files = input("What is the file you would like to examine (full or relative path)? ")
+
+if zipfile.is_zipfile(files):   # returns true if the file is a zip file
+        print("Yep! That is a 'zip' file.")
+else:
+        print("Nay. That is not a 'zip' file.")
