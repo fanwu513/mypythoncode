@@ -25,7 +25,7 @@ def is_even(nums):
 def is_palindrome():
     word = input("Enter word\n")
     reverse_word = word[::-1]
-    if word == reverse_word:
+    if word.strip()  == reverse_word.strip():
         return True
     else:
         return False
