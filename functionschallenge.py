@@ -15,11 +15,11 @@ def multiply_numbers(nums):
 
 
 def is_even(nums):
-    enum = []
+    even_nums = []
     for num in nums:
         if num % 2 == 0:
-            enum.append(num)
-    return enum
+            even_nums.append(num)
+    return even_nums
 
 
 def main():
