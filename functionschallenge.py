@@ -22,6 +22,14 @@ def is_even(nums):
     return even_nums
 
 
+def is_palindrome():
+    word = input("Enter word\n")
+    reverse_word = word[::-1]
+    if word == reverse_word:
+        return True
+    else:
+        return False
+
 def main():
     num1 = input("Enter first number\n")
     num2 = input("Enter second number\n")
@@ -30,5 +38,7 @@ def main():
     print("Sum of numbers is: ", sum_numbers())
     print("Product of list is: ", multiply_numbers((8, 2, 3, -1, 7)))
     print("Even numbers of list are: ", is_even([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+    print("Is this string a palindrome? ", is_palindrome())
+
 
 main()
